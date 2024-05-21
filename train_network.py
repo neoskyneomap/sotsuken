@@ -10,6 +10,10 @@ from tensorflow.keras import backend as K
 from pathlib import Path
 import numpy as np
 import pickle
+import config
+
+# GPU設定の読み込み
+config.setup_gpu()
 
 # パラメータの準備
 RN_EPOCHS = 100 # 学習回数
