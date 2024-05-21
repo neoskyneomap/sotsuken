@@ -12,7 +12,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # ベストプレイヤーのモデルの読み込み
-model = load_model('C:/Users/nakai/Documents/kenkyu/model/best.h5')
+model = load_model('C:/Users/nakai/Documents/kenkyu/sotsuken/model/best.h5')
 
 # ゲームUIの定義
 class GameUI(tk.Frame):
