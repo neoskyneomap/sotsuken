@@ -13,6 +13,7 @@ from pathlib import Path
 import numpy as np
 import pickle
 import os
+import tensorflow as tf
 
 # パラメータの準備
 SP_GAME_COUNT = 500 # セルフプレイを行うゲーム数（本家は25000）
